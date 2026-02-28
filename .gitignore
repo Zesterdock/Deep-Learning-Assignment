@@ -1,0 +1,13 @@
+# Dataset and training outputs
+dataset/
+runs/
+input/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
