@@ -6,6 +6,42 @@ A complete warehouse management dashboard with AI-powered bag counting system, r
 
 ---
 
+## 🎥 Demo & Screenshots
+
+### **Live Dashboard Demo**
+
+https://github.com/user-attachments/assets/your-demo-video-id-here
+
+> **Note:** Upload your demo video to GitHub by creating a new issue, attaching the video, and copying the link that appears. Then replace the link above.
+
+### **Dashboard Screenshots**
+
+**Main Dashboard View:**
+- Real-time bag counting across 3-gate monitoring
+- Professional blue & yellow theme matching reference design
+- Live AI agent analysis with operational insights
+
+**Key Features in Action:**
+- ✅ YOLOv8 object detection with ByteTrack tracking
+- ✅ Dual counters (Loading/Unloading) with directional logic
+- ✅ IOT parameters monitoring (Temperature, Humidity, Safety sensors)
+- ✅ Groq AI agent providing real-time warehouse insights
+- ✅ Multi-camera support (1 active + 2 expandable)
+
+**Performance Metrics:**
+- Detection Speed: 13-15 FPS on CPU
+- Model: Custom trained YOLOv8n (3M parameters)
+- Tracking: ByteTrack for ID consistency
+- Accuracy: Tested on 3 different warehouse scenarios
+
+### **Quick Start Video**
+1. Install dependencies: `pip install -r requirements.txt`
+2. Set API key: `set GROQ_API_KEY=your_key`
+3. Run dashboard: `py -m streamlit run dashboard_working.py`
+4. Access: http://localhost:8501
+
+---
+
 ## ✅ Requirements Compliance
 
 ### **All Core Requirements Met:**

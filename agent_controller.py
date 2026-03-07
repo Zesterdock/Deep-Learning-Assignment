@@ -1,13 +1,13 @@
 import requests
 from bag_counter import process_video
 import logging
+import os
 
 # ========================================
 # SETUP: Get your FREE Groq API key at:
 # https://console.groq.com/keys
 # ========================================
-import os
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "YOUR_GROQ_API_KEY_HERE")  # Replace with your Groq API key or set environment variable
+GROQ_API_KEY = os.environ.get('GROQ_API_KEY', 'YOUR_GROQ_API_KEY_HERE')  # Get from environment variable
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
