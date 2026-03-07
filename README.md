@@ -9,8 +9,7 @@ A complete warehouse management dashboard with AI-powered bag counting system, r
 ## 🎥 Demo & Screenshots
 
 ### **Live Dashboard Demo**
-
-[https://github.com/user-attachments/assets/your-demo-video-id-here](https://github.com/Zesterdock/Deep-Learning-Assignment/issues/1)
+![Warehouse Dashboard Demo](demo_video.gif)
 
 >
 
@@ -327,5 +326,6 @@ For questions or issues:
 **Ready for demonstration and deployment!**
 
 *Last Updated: March 7, 2026*
+
 
 
